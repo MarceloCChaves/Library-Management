@@ -1,0 +1,60 @@
+.create-book-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.header h2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.create-book-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-width: 90%;
+}
+
+.create-book-form input, .create-book-form textarea {
+  padding: 10px 8px;
+  margin: 10px 0;
+  border-radius: 0.5rem;
+  resize: none;
+  width: 500px;
+}
+
+.distributed-forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-book-form-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.create-book-label {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.create-book-buttons {
+  margin: 0 auto;
+}
+
+.create-book-button {
+  background-color: #1976d2;
+  color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  margin-inline-end: 8px;
+}

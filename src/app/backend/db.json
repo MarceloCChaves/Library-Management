@@ -1,0 +1,72 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Boa Noite Punpun - Vol. 1",
+      "author": "Inio Asano",
+      "cover": "https://m.media-amazon.com/images/I/51EQ5jMPsHL._SL1000_.jpg",
+      "description": "Punpun Onodera é um garoto normal, que vive feliz com sua família. Um dia, Aiko Tanaka é transferida para a sua escola. Foi paixão à primeira vista!! Voltando juntos para casa, ela conta que no futuro, “a Terra vai se tornar um planeta inabitável”. É nessa hora que Punpun decide ser um cientista espacial. Porém, bem quando encontra seu objetivo na vida, a sua realidade começa a desmoronar. Considerado por muitos como a obra-prima do aclamado Inio Asano, Boa Noite Punpun é um slice of life que trata de temas delicados como solidão, relações familiares conturbadas e depressão.",
+      "year": 1998,
+      "type": "Mangá"
+    },
+    {
+      "id": 2,
+      "title": "Boa Noite Punpun - Vol. 2",
+      "author": "Inio Asano",
+      "cover": "https://m.media-amazon.com/images/I/51qq-2ETGQL._SL1000_.jpg",
+      "description": "Depois que seu pai foi embora, Punpun começou a morar com a mãe e o tio Yuuichi. O garoto, agora no ginasial, está na mesma classe que seus amigos. Porém, ele não está mais falando com Aiko, a garota por quem era apaixonado desde pequeno. Ela começou a sair com um veterano do clube de badminton e, agora, a vida de Punpun virou um verdadeiro inferno!!",
+      "year": 1998,
+      "type": "Mangá"
+    },
+    {
+      "id": 3,
+      "title": "Boa Noite Punpun - Vol. 3",
+      "author": "Inio Asano",
+      "cover": "https://m.media-amazon.com/images/I/51orPk0u0rL._SL1000_.jpg",
+      "description": "Depois de um ginásio sem muitas emoções, Punpun agora é um estudante colegial. Porém, o tio Yuuichi continua desaparecido!! O que o garoto, sua mãe e Midori farão?! Enquanto planejavam sua mudança e procuravam pelo tio, um incidente faz a vida de Punpun se transformar aos poucos…",
+      "year": 1998,
+      "type": "Mangá"
+    },
+    {
+      "id": 4,
+      "title": "Boa Noite Punpun - Vol. 4",
+      "author": "Inio Asano",
+      "cover": "https://m.media-amazon.com/images/I/51xt9XrvOCL._SL1000_.jpg",
+      "description": "Querendo fugir dos problemas à sua volta, Punpun começa a morar sozinho. Ele tenta viver como um garoto normal, sem causar problemas aos outros, mas o encontro inesperado com a misteriosa garota chamada Sachi vai fazer sua vida dar uma grande reviravolta!",
+      "year": 1998,
+      "type": "Mangá"
+    },
+    {
+      "title": "Harry Potter e a Pedra Filosofal",
+      "author": "J. K. Rowling",
+      "cover": "https://m.media-amazon.com/images/I/61jgm6ooXzL._SL1000_.jpg",
+      "description": "Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural. Pelo contrário. Até os 10 anos, Harry foi uma espécie de gata borralheira: maltratado pelos tios, herdava roupas velhas do primo gorducho, tinha óculos remendados e era tratado como um estorvo.",
+      "year": 1999,
+      "type": "Ação",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Marcelo chaves",
+      "email": "marcelo@gmail.com",
+      "password": "12345",
+      "role": "Admnistrador"
+    },
+    {
+      "id": 2,
+      "username": "Pedro Fonseca",
+      "email": "Pedro@gmail.com",
+      "password": "12345",
+      "role": "Cliente"
+    },
+    {
+      "username": "marcelocchaves",
+      "email": "Marcelochaves20000@gmail.com",
+      "password": "32132",
+      "role": "Cliente",
+      "id": 3
+    }
+  ]
+}

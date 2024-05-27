@@ -1,0 +1,61 @@
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  height: 80vh;
+}
+
+.header h2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-width: 90%;
+}
+
+.register-form input {
+  padding: 10px 8px;
+  margin: 10px 0;
+  border-radius: 0.5rem;
+}
+
+.register-label {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.register-button {
+  background-color: #1976d2;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.cancel-button{
+  color: #ff0000;
+  background-color: #fff;
+  border: 2px solid #ff0000 !important;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.error {
+  font-size: 12px;
+  margin:  0 0 10px;
+  color: #ff0000;
+}

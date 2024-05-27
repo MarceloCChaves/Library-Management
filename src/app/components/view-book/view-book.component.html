@@ -1,0 +1,17 @@
+<div class="book-container">
+  <div class="image-content" routerLink="/livro/{{ book.id }}">
+    <img src="{{ book.cover }}" alt="{{ book.title }}" class="book-image" />
+  </div>
+  <div>
+    <div class="book-actions">
+      <strong class="book-title">{{ book.title }}</strong>
+      <p class="book-author">Autor: {{ book.author }}</p>
+      <p class="book-desc">{{ book.description }}</p>
+      <p class="book-year">Ano: {{ book.year }}</p>
+      <p class="book-type">Gênero: {{ book.type }}</p>
+      <div>
+        <button class="book-button" routerLink="/dashboard">Voltar</button>
+      </div>
+    </div>
+  </div>
+</div>

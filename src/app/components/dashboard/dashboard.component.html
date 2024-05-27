@@ -1,0 +1,44 @@
+<section class="booklist">
+
+  <header class="booklist-header">
+    <div>
+      <h1>Bem vindo, {{ user.username }}</h1>
+      <p>Perfil: {{ user.role }}</p>
+      <button class="bookList-log-out" (click)="handleLogout()">Fazer Logout</button>
+    </div>
+
+    <h1>Quantidade de livros: {{ bookList.length }}</h1>
+  </header>
+
+  <article>
+    <div class="booklist-content">
+      <div class="list-books-search">
+        <div>
+          <input type="text" class="list-books-search-input" placeholder="Procurar livro..." autofocus
+          [(ngModel)]="filter" />
+         <button class="list-books-search-button" (click)="searchProduct()">Pesquisar</button>
+        </div>
+        <aside class="booklist-aside">
+          <h3>Livro em destaque</h3>
+          <img [src]="featuredBook.cover" alt="{{ featuredBook.title }}" class="featured-book-cover" routerLink="/livro/{{ featuredBook.id }}" />
+          <strong>{{ featuredBook.title }}</strong>
+          <p>{{ featuredBook.author }}</p>
+        </aside>
+      </div>
+  
+      <div class="booklist-container" *ngIf="bookList.length > 0; else noBooks">
+        <div *ngFor="let item of bookList">
+          <app-book [book]="item"></app-book>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <button class="create-book-button text-center" routerLink="/cadastrar-livro">Cadastrar Livro</button>
+</section>
+
+<ng-template #noBooks>
+  <div class="text-center">
+    <strong>Não há livros cadastrados</strong>
+  </div>
+</ng-template>

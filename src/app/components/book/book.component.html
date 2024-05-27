@@ -1,0 +1,18 @@
+<div class="book-container">
+  <div class="image-content" routerLink="/livro/{{ book.id }}">
+    <img src="{{ book.cover }}" alt="{{ book.title }}" class="book-image" />
+    <div class="book-view">
+      <h1>Clique para visualizar o livro</h1>
+    </div>
+  </div>
+  <div>
+    <div class="book-actions">
+      <strong class="book-title">{{ book.title }}</strong>
+      <p class="book-author">{{ book.author }}</p>
+      <div>
+        <button class="book-button edit-book-button" routerLink="/editar-livro/{{book.id}}">Editar</button>
+        <button class="book-button delete-book-button" (click)="deleteBook()">Deletar</button>
+      </div>
+    </div>
+  </div>
+</div>

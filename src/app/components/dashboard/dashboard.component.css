@@ -1,0 +1,129 @@
+.booklist {
+  margin: 20px;
+}
+
+.booklist-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.booklist-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bookList-log-out {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  margin-inline-end: 8px;
+  border: 2px solid#FF0000;
+  color: #FF0000;
+  background: #fff;
+}
+
+.booklist-aside {
+  width: 250px;
+  max-width: 100%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.booklist-aside:hover{
+  transform: scale(1.05);
+}
+
+.booklist-aside h3 {
+  text-align: center;
+}
+
+.booklist-aside img{
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.booklist-filter-button {
+  color: #fff;
+  background-color: #1976d2;
+  padding: 5px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.booklist-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.list-books-search {
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.list-books-filter , .list-books-search-input {
+  border-radius: 8px;
+  outline: none;
+  padding: 10px 20px;
+  border: none;
+  width: 100%;
+}
+
+.list-books-search-button  {
+  width: 100%;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.create-book-button{
+  background-color: #1976d2;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  margin: 20px auto;
+  text-align: center;
+}
+
+@media(max-width: 767px){
+  .booklist-container{
+    justify-content: center;
+  }
+  .booklist-content {
+    flex-direction: column;
+  }
+}
